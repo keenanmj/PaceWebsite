@@ -392,6 +392,21 @@ nav a#pull {
 }
  /*----slider----*/
 /*------start-features-----*/
+#spreadSheetIcon{
+	width: 30%;
+	height: 30%;
+}
+
+#calendarIcon{
+	width: 30%;
+	height: 30%;
+}
+
+#checkmarkIcon{
+	width: 30%;
+	height: 30%;
+}
+
 .features{
 	padding:2em 0 3em;
 }

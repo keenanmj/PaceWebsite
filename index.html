@@ -8,6 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 	<head>
 		<title>Pace | Home</title>
+		<link href="css/reset.css" rel="stylesheet">
 		<link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
 		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 		 <script src="js/jquery.min.js"></script>
@@ -39,7 +40,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div  id="top" class="callbacks_container">
 		  <ul class="rslides" id="slider4">
 			<li>
-			  <img src="images/sitebanner.png" alt="">
+			  <img src="images/sitebanner.png" alt="site banner">
 			</li>
 		  </ul>
 		</div>
@@ -50,12 +51,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				 <nav class="top-nav">
 					<ul class="top-nav">
 						<li class="active"><a href="#hello" class="scroll">Home</a></li>
-						<li class="page-scroll"><a href="#over" class="scroll">Overview</a></li>
-						<li class="contatct-active" class="page-scroll"><a href="#down" class="scroll">Download </a></li>
-						<li class="page-scroll"><a href="#comp" class="scroll">Compatibility</a></li>
-						<li class="page-scroll"><a href="#" class="scroll">Contact Me</a></li>
+						<li class="page-scroll"><a href="#whyYouNeedPace" class="scroll">Overview</a></li>
+						<!--<li class="contatct-active" class="page-scroll"><a href="#download" class="scroll">Download </a></li>-->
+						<li class="page-scroll"><a href="#compatibility" class="scroll">Compatibility</a></li>
+						<li class="page-scroll"><a href="#footer" class="scroll">Contact Me</a></li>
 					</ul>
-					<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+					<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" alt="navigation hamburger"/></a>
 				  </nav>
 				
 				<div class="clear"> </div>
@@ -68,17 +69,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<h2>Why you need Pace</h2>
 					<div class="features-grids text-center">
 						<div class="col-md-4 features-grid">
-							<img src="images/spreadsheet.png" style="width: 30%; height: 30%;">
+							<img src="images/spreadsheet.png" alt="spreadsheet icon" id="spreadSheetIcon">
 							<h3><a href="#">Grade Tracking</a></h3>
 							<p>See a list of all previous grades, and enter in future assignments for all your classes.</p>
 						</div>
 						<div class="col-md-4 features-grid">
-							<img src="images/calendar.png" style="width: 30%; height: 30%;">
+							<img src="images/calendar.png" alt="calendar icon" id="calendarIcon">
 							<h3><a href="#">Due Date Reminders</a></h3>
 							<p>Don't let assignments creep up on you. Set custom reminders for when they're due so you can plan accordingly.</p>
 						</div>
 						<div class="col-md-4 features-grid">
-							<img src="images/check.png" style="width: 30%; height: 30%;">
+							<img src="images/check.png" alt="checkmark icon" id="checkmarkIcon">
 							<h3><a href="#">Real-Time Grade Outlook</a></h3>
 							<p>Know where you stand based on the course's weighting policy, and know what the best grade you can still receive will be.</p>
 						</div>
@@ -89,9 +90,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div id="gradeTrackingDetail" class="Share-instantly">
 			<div class="container">
 				<div class="col-md-5 Share-instantly-left">
-					<span><img src="images/classView.png"></span>
+					<span><img src="images/assignmentsView.png" alt="assignments view"></span>
 				</div>
-				<div class="col-md-7 Share-instantly-right">
+				<div class="col-md-7 Share-instantly-right" style="height: 600px">
 					<h3 style="width: 550px">Track past assignments</h3>
 					<br>
 					<ul style="padding-left: 20px; color: white; font-size: 150%;">
@@ -110,10 +111,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 		<div class="clearfix"> </div>
-		<div id="dueDateRemindersDetail" class="feature">
+		<div id="dueDateRemindersDetail" class="feature" style="height: 700px">
 			<div class="container">
 				<div class="col-md-7 feature-left">
 					<h3>Never miss a due-date</h3>
+					<br>
 					<ul style="padding-left: 20px; color: white; font-size: 150%;">
 						<li>
 							<p>Enter upcoming assignments into Pace, and get a list of what's coming</p>
@@ -124,14 +126,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</ul>
 				</div>
 				<div class="col-md-5 feature-right">
-					 <span><img src="images/classView.png"></span>
+					 <span><img src="images/duedatesView.png" style="width: 315px; height: 635px;" alt="due dates view"></span>
 				</div>
 			</div>
 		</div>
-		<div id="gradeOutlookDetail" class="Share-instantly">
+		<div id="gradeOutlookDetail" class="Share-instantly" style="height: 700px">
 				<div class="container">
 					<div class="col-md-5 Share-instantly-left">
-						<span><img src="images/classView.png"></span>
+						<span><img src="images/classView.png" alt="class view"></span>
 					</div>
 					<div class="col-md-7 Share-instantly-right">
 						<h3 style="width: 550px">Know where you stand</h3>
@@ -148,23 +150,23 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="clearfix"> </div>
 				</div>
 			</div>
-		<div id="down" class="download">
+		<div id="download" class="download">
 			<div class="container">
 				<div class="col-md-5 download-left">
-					<img src="images/icon.png" style="width: 80%;">
+					<img src="images/icon.png" style="width: 80%;" alt="pace icon">
 				</div>
 				<div class="col-md-7 download-right">
-					<p>Trust me, <br />This app is the <br /> greatest app you'll <br /> ever download.</p>
+					<p style="padding-top: 80px;">Trust me, <br />This app is the <br /> greatest app you'll <br /> ever download.</p>
 					<a href="#">- Michael Keenan, Developer of Pace</a>
 					<ul class="list-unstyled list-inline">
-						<li><a class="l-apple" href="#"><span> </span></a></li>
+						<!--<li><a class="l-apple" href="#"><span> </span></a></li>-->
 						<!--<li><a class="l-google" href="#"><span> </span></a></li>-->
 					</ul>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-		<div id="comp" class="compatibility">
+		<div id="compatibility" class="compatibility">
 			<div class="container">
 				<h3>Compatibility</h3>
 				<div class="compatibility-grids">
@@ -196,7 +198,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 			</div>
 		</div>
-		<div class="footer">
+		<div id="footer" class="footer">
 			<a href="#top" id="toTop" style="display: block; width: 100px; margin-bottom: 25px;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 			<p style="text-align: center">Created by <a href="https://www.michaelkeenan.me/" target="_blank">Michael Keenan</a> | Used Bootstrap Theme | <a></a>Contact Me</p>
 		</div>
