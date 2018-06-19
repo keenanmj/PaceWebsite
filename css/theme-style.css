@@ -299,7 +299,7 @@ nav a#pull {
 #slider3-pager li{
 	display:inline-block;
 }
-.rslides {
+.banner {
   position: relative;
   list-style: none;
   overflow: hidden;
@@ -444,23 +444,23 @@ nav a#pull {
 .features-grids{
 	padding-top:2.5em;
 }
-/*-----start-Share-instantly----*/
-.Share-instantly{
+/*-----start-featureDetail----*/
+.featureDetail{
 	background:#262626;
 	padding-top:3em;
 }
-.Share-instantly-left span{
+.featureDetail-left span{
 	width:350px;
 	height:516px;
 	display:block;
 	background:url(../images/share-divice.png) no-repeat 0px 0px;
 }
-.Share-instantly-right h3{
+.featureDetail-right h3{
 	color: #FFF;
 	font-family: 'nexa_boldregular';
 	font-size: 3em;
 }
-.Share-instantly-right p{
+.featureDetail-right p{
 	color: #AEAEAE;
 	line-height: 1.8em;
 }
@@ -473,7 +473,7 @@ p.img_slider{
 	line-height: 1.8em;
 	width: 79%;
 }
-.Share-instantly-right{
+.featureDetail-right{
 	margin-top:4em;
 }
 /*------ start-feature----*/
@@ -771,7 +771,7 @@ a.cl-icon8-l span{
  .features-grid p {
 	font-size: 0.8125em;
  }
- .Share-instantly-right h3 {
+ .featureDetail-right h3 {
 	font-size: 2em;
  }
  .feature h3 {
@@ -780,7 +780,7 @@ a.cl-icon8-l span{
   .gallery h3{
 	font-size:1.5em;
  }
- .Share-instantly-right p{
+ .featureDetail-right p{
  	font-size:0.8125em;
  }
  .feature p {
@@ -827,12 +827,12 @@ a.cl-icon8-l span{
  .features-grid span.t-icon2 {
     background-position: -346px 0px;
  }
-.Share-instantly-left span, .feature-right span{
+.featureDetail-left span, .feature-right span{
 	background-size:85%;
 	width: 320px;
 	height: 430px;
  }
- .Share-instantly-right {
+ .featureDetail-right {
 	margin-top:0em;
  }
  .download-left a span {
@@ -888,10 +888,10 @@ p.cousel_demo{
  div.owl-carousel1 {
 	width: 100%;
  }
- div.col-md-5.Share-instantly-left, div.col-md-5.feature-right{
+ div.col-md-5.featureDetail-left, div.col-md-5.feature-right{
     text-align: center;
  }
- .Share-instantly-left span, .feature-right span {
+ .featureDetail-left span, .feature-right span {
 	background-size: 85%;
 	width: 250px;
 	height: 330px;
@@ -906,7 +906,7 @@ p.cousel_demo{
  .footer {
 	padding:10px 0;
  }
- .Share-instantly-right h3, .feature h3{
+ .featureDetail-right h3, .feature h3{
 	font-size: 1.5em;
  }
 }
@@ -974,13 +974,13 @@ p.cousel_demo{
  nav a#pull img {
 	margin-top: -20px;
  }
-  .Share-instantly-left span, .feature-right span {
+  .featureDetail-left span, .feature-right span {
 	background-size: 59%;
 	width: 180px;
 	height: 170px;
 	display: inline-table;
  }
- .Share-instantly-left span, .feature-right span{
+ .featureDetail-left span, .feature-right span{
  	background-position:30px 0;
  }
  .download-left a span {
@@ -995,7 +995,7 @@ p.cousel_demo{
  .download-right a {
 	font-size: 1em;
  }
- div.col-md-5.Share-instantly-left, div.col-md-5.feature-right {
+ div.col-md-5.featureDetail-left, div.col-md-5.feature-right {
 	margin-bottom: -4px;
  }
 }
@@ -1020,7 +1020,7 @@ p.cousel_demo{
 	left:25%;
 	top:70%;
  }
- .Share-instantly-left span, .feature-right span {
+ .featureDetail-left span, .feature-right span {
 	background-size: 59%;
 	width: 180px;
 	height: 170px;
